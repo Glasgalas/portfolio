@@ -1,4 +1,6 @@
 {
   "liveSassCompile.settings.includeItems": [],
-  "editor.fontLigatures": false
+  "editor.fontLigatures": false,
+  "css.validate": false,
+  "scss.validate": false
 }

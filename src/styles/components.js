@@ -17,6 +17,7 @@ export const ListItem = styled.li`
   &:not(:last-child) {
     margin-right: 54px;
   }
+
   &:after {
     position: absolute;
     bottom: -10px;
@@ -30,9 +31,9 @@ export const ListItem = styled.li`
       ${baseTheme.colors.btnGradientSnd}
     );
     transform: scale(0);
-    transition: all ${baseTheme.transition.ms300}
-      ${baseTheme.transition.function};
+    transition: all ${baseTheme.transition.function} 350ms;
   }
+
   &:hover:after {
     transform: scale(1.1);
   }
